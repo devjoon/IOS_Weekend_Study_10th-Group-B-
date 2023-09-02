@@ -1,1 +1,1 @@
-# IOS_Weekend_Study_10th-Group-B-
+# IOS_Weekend_Study_10th-GroupB
