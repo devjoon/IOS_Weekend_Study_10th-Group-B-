@@ -1,3 +1,10 @@
+//
+//  main.swift
+//  kiseok
+//
+//  Created by 박기석 on 2023/09/02.
+//
+
 import UIKit
 
 var budget: Int = 2000
@@ -151,5 +158,7 @@ do {
 //for (index, product) in unwrappedProductsList.enumerated() {
 //    print("\(index)번 상품은 \(product)입니다.")
 //}
+
+
 
 
