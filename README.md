@@ -9,7 +9,7 @@
 |Kiseok|Uemu|
 |:---:|:---:|
 <img src="https://github.com/devjoon/IOS_Weekend_Study_10th_GroupB/assets/101351216/7ba2fc8c-c3f9-4df3-ab1e-72a66363c9b2" width="200" height="200"/>|<img src="https://github.com/devjoon/IOS_Weekend_Study_10th_GroupB/assets/101351216/9fdcd484-65fe-49c3-901d-8d7ebe09324f" width="200" height="200"/>
-|[Kiseok(GotHub)](https://github.com/carti1108)|추후 추가예정|
+|[Kiseok(GitHub)](https://github.com/carti1108)|추후 추가예정|
 
 ## 🤝 규칙
 - 사정이 있어 참석하지 못할 경우 전날 오후 6시 전에 미리 DM
