@@ -32,4 +32,4 @@
 |Week|Subject|
 |:---:|:---:|
 |1|Optional/예외처리|
-|2|Type/H.I.G|
+|2|Type|
