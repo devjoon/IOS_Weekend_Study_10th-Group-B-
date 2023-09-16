@@ -22,7 +22,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // Do any additional setup after loading the view.
     }
 
     @IBAction func hitRegisterButton(_ sender: Any) {
@@ -41,3 +40,7 @@ class ViewController: UIViewController {
         
     }
 }
+
+// 뷰와 컨트롤러는 나누기 어렵다.
+// 어려운 이유는 컨트롤러가 뷰를 포함할 뿐만 아니라 라이프사이클을 관리하기 떄문에 서로 밀접하게 연관되어 있어서
+// 뷰를 포함할뿐 뷰라고 보기에는 어려움이 있다.
