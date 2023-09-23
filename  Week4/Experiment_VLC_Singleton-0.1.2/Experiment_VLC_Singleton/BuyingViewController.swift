@@ -41,10 +41,10 @@ class BuyingViewController: UIViewController {
     
     @IBAction func buyButtonTapped(_ sender: Any) {
         yaPoint.reducePoint()
-        dismiss(animated: true, completion: nil)
+        self.navigationController?.popViewController(animated: true)
     }
     
     @IBAction func dismissButton(_ sender: Any) {
-        dismiss(animated: true, completion: nil)
+        self.navigationController?.popViewController(animated: true)
     }
 }

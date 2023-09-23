@@ -40,6 +40,16 @@ class MainViewController: UIViewController {
        
     }
     
+    
+    @IBAction func goShopButton(_ sender: Any) {
+        guard let vc = self.storyboard?.instantiateViewController(withIdentifier: "shop") else {
+            return
+        }
+        
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         print("1 - viewWillAppear")
