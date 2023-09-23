@@ -6,10 +6,27 @@
 import UIKit
 
 class PointManager {
-    var point: Int = 50
+    static let shared = PointManager(point: 50)
+    private(set) var point: Int
+    
+    private init(point: Int) {
+        self.point = point
+    }
+    
+    func reducePoint() {
+        self.point -= 50
+    }
+    
+    func reset() {
+        self.point = 50
+    }
 }
 
 class MainViewController: UIViewController {
+    
+    @IBOutlet weak var pointLabel: UILabel!
+    
+    let yaPoint = PointManager.shared
     
     override func loadView() {
         super.loadView()
@@ -19,12 +36,14 @@ class MainViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         print("1 - viewDidLoad")
-        
+       
+       
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         print("1 - viewWillAppear")
+        pointLabel.text = String(yaPoint.point)
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -43,5 +62,9 @@ class MainViewController: UIViewController {
     }
     
     
+    @IBAction func refreshButtonTapped(_ sender: Any) {
+        yaPoint.reset()
+        pointLabel.text = String(yaPoint.point)
+    }
 }
 

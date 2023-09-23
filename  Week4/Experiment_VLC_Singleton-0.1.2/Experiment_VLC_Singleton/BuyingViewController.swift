@@ -6,6 +6,7 @@
 import UIKit
 
 class BuyingViewController: UIViewController {
+    let yaPoint = PointManager.shared
     
     override func loadView() {
         super.loadView()
@@ -36,6 +37,11 @@ class BuyingViewController: UIViewController {
     override func viewDidDisappear(_ animated: Bool) {
         super.viewDidDisappear(animated)
         print("2 - viewDidDisappear")
+    }
+    
+    @IBAction func buyButtonTapped(_ sender: Any) {
+        yaPoint.reducePoint()
+        dismiss(animated: true, completion: nil)
     }
     
     @IBAction func dismissButton(_ sender: Any) {
