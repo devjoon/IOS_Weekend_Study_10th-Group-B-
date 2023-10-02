@@ -8,9 +8,9 @@ enum CoffeeMenu {
     case americano
     case latte
     
-    var price: int {
-        
-    }
+//    var price: int {
+//        
+//    }
 }
 
 class Person {
@@ -24,7 +24,7 @@ class Person {
     }
     
     func buy(_ menu: CoffeeMenu, at shop: CoffeeShop) {
-        
+        shop.order(menu)
     }
 }
 
@@ -54,3 +54,8 @@ class CoffeeShop {
         
     }
 }
+
+var Camper2 = CafeManager(name: "uemu", money: 300000)
+var Cafe = CoffeeShop(manager: Camper2)
+var Camper = Person(name: "Kiseok", money: 120000)
+Camper.buy(CoffeeMenu.americano, at: Cafe)
