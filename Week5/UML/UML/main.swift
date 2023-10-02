@@ -8,9 +8,14 @@ enum CoffeeMenu {
     case americano
     case latte
     
-//    var price: int {
-//        
-//    }
+    var price: Int {
+        switch self {
+        case .americano:
+            return 35000
+        case .latte:
+            return 40000
+        }
+    }
 }
 
 class Person {
@@ -24,7 +29,13 @@ class Person {
     }
     
     func buy(_ menu: CoffeeMenu, at shop: CoffeeShop) {
-        shop.order(menu)
+        if menu.price <= self.money {
+            self.money -= menu.price
+            print("\(self.money)남음")
+            shop.order(menu)
+        } else {
+            print("잔액이 부족합니다.")
+        }
     }
 }
 
@@ -39,7 +50,9 @@ class Coffee {
 
 class CafeManager: Person {
     func brew(_ menu: CoffeeMenu) {
-        
+        self.money += menu.price
+//        print("\(self.money)")
+        print("\(menu) 나왔습니다.")
     }
 }
 
@@ -51,7 +64,7 @@ class CoffeeShop {
     }
     
     func order(_ menu: CoffeeMenu) {
-        
+        manager.brew(menu)
     }
 }
 
@@ -59,3 +72,7 @@ var Camper2 = CafeManager(name: "uemu", money: 300000)
 var Cafe = CoffeeShop(manager: Camper2)
 var Camper = Person(name: "Kiseok", money: 120000)
 Camper.buy(CoffeeMenu.americano, at: Cafe)
+Camper.buy(CoffeeMenu.americano, at: Cafe)
+Camper.buy(CoffeeMenu.latte, at: Cafe)
+Camper.buy(CoffeeMenu.americano, at: Cafe)
+
