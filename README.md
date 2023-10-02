@@ -35,3 +35,4 @@
 |2|Type|
 |3|MVC|
 |4|Singleton Pattern / View Life Cycle|
+|5|UML|
