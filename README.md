@@ -37,3 +37,4 @@
 |4|Singleton Pattern / View Life Cycle|
 |5|UML|
 |6|SOLID|
+|7|고차함수|
