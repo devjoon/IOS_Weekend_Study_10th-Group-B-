@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F57E92F2AF5DF5700A22322 /* CamperInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F57E92E2AF5DF5700A22322 /* CamperInfo.swift */; };
 		6523E2D22AF5DB89004C9B89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6523E2D12AF5DB89004C9B89 /* AppDelegate.swift */; };
 		6523E2D42AF5DB89004C9B89 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6523E2D32AF5DB89004C9B89 /* SceneDelegate.swift */; };
 		6523E2D62AF5DB89004C9B89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6523E2D52AF5DB89004C9B89 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4F57E92E2AF5DF5700A22322 /* CamperInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CamperInfo.swift; sourceTree = "<group>"; };
 		6523E2CE2AF5DB89004C9B89 /* JSON.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSON.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6523E2D12AF5DB89004C9B89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6523E2D32AF5DB89004C9B89 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				6523E2D12AF5DB89004C9B89 /* AppDelegate.swift */,
 				6523E2D32AF5DB89004C9B89 /* SceneDelegate.swift */,
 				6523E2D52AF5DB89004C9B89 /* ViewController.swift */,
+				4F57E92E2AF5DF5700A22322 /* CamperInfo.swift */,
 				6523E2D72AF5DB89004C9B89 /* Main.storyboard */,
 				6523E2DA2AF5DB8A004C9B89 /* Assets.xcassets */,
 				6523E2DC2AF5DB8A004C9B89 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				6523E2D62AF5DB89004C9B89 /* ViewController.swift in Sources */,
 				6523E2D22AF5DB89004C9B89 /* AppDelegate.swift in Sources */,
 				6523E2D42AF5DB89004C9B89 /* SceneDelegate.swift in Sources */,
+				4F57E92F2AF5DF5700A22322 /* CamperInfo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +298,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -321,6 +326,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -8,12 +8,25 @@
 import UIKit
 
 class ViewController: UIViewController {
+    var camperInfo: [CamperInfo] = []
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        guard let dataAsset = NSDataAsset(name: "JSONTest") else {
+            return
+        }
+        let jsonDecoder = JSONDecoder()
+        
+        do {
+            camperInfo = try jsonDecoder.decode([CamperInfo].self, from: dataAsset.data)
+        } catch {
+            print(error.localizedDescription)
+        }
+        
+        print(camperInfo)
     }
 
 
 }
+
 
