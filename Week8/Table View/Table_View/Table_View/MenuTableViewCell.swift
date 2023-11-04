@@ -11,6 +11,7 @@ class MenuTableViewCell: UITableViewCell {
 
     @IBOutlet weak var menuLable: UILabel!
     @IBOutlet weak var circleImage: UIImageView!
+    @IBOutlet weak var priceLabel: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
