@@ -1,31 +1,27 @@
 [
     {
-        "name": "uemu"
-        "season": 10
-        "phoneInfo": "IPhone8plus"
+        "name":"uemu",
+        "season":10,
+        "phoneInfo":"IPhone8plus"
     },
-    
     {
-        "name": "mireu"
-        "season": 10
-        "phoneInfo": "IPhone13mini"
+        "name":"mireu",
+        "season":10,
+        "phoneInfo":"IPhone13mini"
     },
-    
     {
-        "name": "kiseok"
-        "season": 10
-        "phoneInfo": "IPhone12Pro"
+        "name":"kiseok",
+        "season":10,
+        "phoneInfo":"IPhone12Pro"
     },
-    
     {
-        "name": "morgan"
-        "season": 10
-        "phoneInfo": "IPhone13Pro"
+        "name":"morgan",
+        "season":10,
+        "phoneInfo":"IPhone13Pro"
     },
-    
     {
-        "name": "serena"
-        "season": 9
-        "phoneInfo": "IPhone15Pro"
+        "name":"serena",
+        "season":9,
+        "phoneInfo":"IPhone15Pro"
     }
 ]
