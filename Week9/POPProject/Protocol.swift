@@ -10,3 +10,6 @@ protocol Chargeable {
     
     mutating func convert(chargeableWattPerHour: WattPerHour) -> WattPerHour
 }
+
+
+protocol Portable {}
