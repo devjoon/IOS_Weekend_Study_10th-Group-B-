@@ -18,8 +18,4 @@ struct Charger: Chargeable {
     }
 }
 
-var appleWatchCharger = Charger(maximumWattPerHour: 5)
-var iPhoneCharger = Charger(maximumWattPerHour: 18)
-var iPadCharger = Charger(maximumWattPerHour: 30)
-var macBookCharger = Charger(maximumWattPerHour: 96)
-var fastMacBookCharger = Charger(maximumWattPerHour: 106)
+
